@@ -12,7 +12,6 @@ import numpy as np
 from src import MIR1K, E2E, cycle, summary, SAMPLE_RATE, FL
 from evaluate import evaluate
 
-
 def train(alpha, gamma):
     logdir = 'runs/Pitch_FL' + str(alpha) + '_' + str(gamma)
     seq_l = 2.55

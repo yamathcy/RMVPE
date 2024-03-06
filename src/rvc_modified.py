@@ -10,6 +10,10 @@ from logging import getLogger
 from librosa.util import normalize, pad_center, tiny
 from scipy.signal import get_window
 
+'''
+the code modified from RVC 
+https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/infer/lib/rmvpe.py
+'''
 
 class STFT(torch.nn.Module):
     def __init__(
