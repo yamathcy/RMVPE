@@ -1,0 +1,9 @@
+torch
+torchaudio
+numpy
+scipy
+librosa
+pandas
+tqdm
+mir_eval
+typing
